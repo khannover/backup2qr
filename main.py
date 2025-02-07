@@ -92,5 +92,13 @@ def main():
     generate_qr_codes(chunks, output_directory)
     print("All QR codes have been generated successfully!")
 
+    # parser = argparse.ArgumentParser(description='Encode binary file into QR codes.')
+    # parser.add_argument('-i', '--input', required=True, help='Path to the input binary file.')
+    # parser.add_argument('-o', '--output', default='qr_codes', help='Directory to save QR code images.')
+    # parser.add_argument('-s', '--chunk_size', type=int, default=1000, help='Max chunk size for QR code data.')
+    # args = parser.parse_args()
+    # # Use args.input, args.output, args.chunk_size in your script
+
+
 if __name__ == '__main__':
     main()
